@@ -23,5 +23,27 @@ public interface PayGatewayGroup {
 	 */
 	public void setName(String name);
 	
+	/**
+	 * 获取分组图标
+	 * @return
+	 */
+	public String getIcon();
 	
+	/**
+	 * 设置分组图标
+	 * @param icon
+	 */
+	public void setIcon(String icon);
+	
+	/**
+	 * 获取分组提示信息
+	 * @return
+	 */
+	public String getTips();
+	
+	/**
+	 * 设置分组提示信息
+	 * @param tips
+	 */
+	public void setTips(String tips);
 }
